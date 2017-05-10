@@ -56,6 +56,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.qc.sdk.izat.premium_enabled=0 \
     ro.qc.sdk.izat.service_mask=0x0
 
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.aim.maintainer=klabit87
+	
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     media.aac_51_output_enabled=true \
